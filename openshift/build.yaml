@@ -18,14 +18,14 @@ spec:
   source:
     contextDir: image
     git:
-      uri: https://github.com/mangirdaz/redis-openshift.git
+      uri: https://github.com/harika224121/testing.git
     type: Git
   strategy:
     dockerStrategy:
       from:
         kind: ImageStreamTag
         name: rhel7:latest
-        namespace: openshift
+        namespace: coi-management-poc
     type: Docker
   triggers: []
 status:
